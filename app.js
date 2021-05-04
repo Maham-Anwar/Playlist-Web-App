@@ -55,7 +55,7 @@ function addSongName() {
   link.className = 'delete-song';
   link.innerHTML = '<i class="fas fa-times"></i>'
   link.style.float = 'right';
-  // link.style.marginTop = '-8px';
+  link.style.marginTop = '-8px';
   li.appendChild(link);
   console.log(li);
 

@@ -104,12 +104,6 @@ function removeSongFromLocalStorage(songItem) {
     }
   }
   localStorage.setItem('songs', JSON.stringify(songs))
-  // songs.forEach(function (song, index) {
-  //   if (songItem.textContent === song) {
-  //     songs.splice(index, 1);
-
-  //   }
-  // });
 
 
 }

@@ -1,0 +1,60 @@
+
+
+*{
+  font-family: cursive;
+}
+.navbar{
+  display: flex;
+  border-bottom :3px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.logo img{
+  height: 40px;
+}
+.pl-name img{
+  height: 70px;
+  margin-top: -14px;
+}
+.input-boxes{
+margin-left: auto;
+}
+input{
+  width: 250px;
+  height: 25px;
+  margin: 5px;
+}
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(118, 118, 179);
+  color: #fff;
+}
+ul{
+  width: 400px;
+  /* height: 480px; */
+  border: 3px solid;
+  background-color: rgb(212, 231, 238);
+  list-style-type: none;
+  overflow-y:auto;
+}
+ul h1{
+  width: 250px;
+  border-bottom: 3px solid  rgb(118, 118, 179) ;
+  border-top: 3px solid  rgb(118, 118, 179) ;
+  padding: 5px;
+  justify-content: center;
+}
+.fas{
+  margin: 10px;
+}
+.video{
+  display: flex;
+}
+#iFrameTag{
+  margin: 20px;
+}

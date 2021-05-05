@@ -62,7 +62,7 @@ function addSongName() {
     //for delete icon
     const link = document.createElement('a');
     link.className = 'delete-song';
-    link.innerHTML = '<i class="fas fa-times"></i>'
+    link.innerHTML = '<i class="fas fa-trash"></i>'
     link.style.float = 'right';
     link.style.marginTop = '-8px';
     li.appendChild(link);
@@ -166,7 +166,7 @@ function getSongs() {
     //for delete icon
     const link = document.createElement('a');
     link.className = 'delete-song';
-    link.innerHTML = '<i class="fas fa-times"></i>'
+    link.innerHTML = '<i class="fas fa-trash"></i>'
     link.style.float = 'right';
     link.style.marginTop = '-8px';
     li.appendChild(link);

@@ -6,7 +6,9 @@
   background-color: grey;
   border-radius: 20px;
 }
-
+body{
+  overflow-y: hidden;
+}
 
 *{
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif

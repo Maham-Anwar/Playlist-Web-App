@@ -1,4 +1,12 @@
 const songList = document.getElementById('Song-list');
+window.onload = function(){
+    var iframe = document.getElementById('iFrameTag');
+    const iframeDocument = iframe.contentDocument;
+    iframeDocument.body.style.display= 'flex';
+    iframeDocument.body.style.justifyContent='center';
+    iframeDocument.body.style.alignItems='center';
+    iframeDocument.body.style.background= '#d4e7ee';
+}
 loadEventListeners();
 
 function loadEventListeners() {
